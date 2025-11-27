@@ -22,23 +22,23 @@ export default function Contact() {
               <div className="flex items-center space-x-4">
                 <MapPin size={24} className="text-cyan-400" />
                 <div>
-                  <p className="font-semibold">Nashville, TN</p>
-                  <p className="text-gray-400">123 Innovation St.</p>
+                  <p className="font-semibold">College Road, Nashik</p>
+                  <p className="text-gray-400">India</p>
                 </div>
               </div>
               <div className="flex items-center space-x-4">
                 <Phone size={24} className="text-cyan-400" />
-                <p className="text-gray-400">+1 (555) 123-4567</p>
+                <p className="text-gray-400">+91 73859 75192</p>
               </div>
               <div className="flex items-center space-x-4">
                 <Mail size={24} className="text-cyan-400" />
-                <p className="text-gray-400">info@codoxtechnical.com</p>
+                <p className="text-gray-400">codox.technical@gmail.com</p>
               </div>
             </div>
             {/* Map placeholder */}
-            <div className="mt-8 h-64 bg-slate-800 rounded-lg flex items-center justify-center">
+            {/* <div className="mt-8 h-64 bg-slate-800 rounded-lg flex items-center justify-center">
               <p className="text-gray-400">Interactive Map Here (Google Maps Embed)</p>
-            </div>
+            </div> */}
           </div>
           <form onSubmit={handleSubmit} className="space-y-6" data-aos="fade-left">
             <input

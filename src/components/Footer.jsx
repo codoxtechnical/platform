@@ -32,7 +32,7 @@ export default function Footer() {
         </div>
         <div>
           <h4 className="font-semibold mb-4">Contact</h4>
-          <p className="text-gray-400">info@codoxtechnical.com<br />+1 (555) 123-4567</p>
+          <p className="text-gray-400">codox.technical@gmail.com<br />+91 73859 75192</p>
         </div>
       </div>
       <div className="border-t border-slate-800 mt-8 pt-6 text-center text-gray-400">
